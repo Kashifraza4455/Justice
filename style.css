@@ -1,0 +1,1206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 770px;
+    background-image: url(img/hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -140px;
+}
+
+.navbar .container-fluid {
+    width: 70%;
+    position: absolute;
+    top: 30px;
+    left: 15%;
+}
+
+.navbar .container-fluid .navbar-nav {
+    font-size: 14px;
+    gap: 20px;
+}
+
+.navbar .container-fluid .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar .rightside {
+    width: 370px;
+    height: 144px;
+    position: absolute;
+    top: 31%;
+    right: 20%;
+}
+
+.navbar .rightside h1 span {
+    font-weight: bold;
+    font-size: 60px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+.navbar .rightside h1 {
+    font-size: 60px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #000000;
+
+}
+
+.navbar .rightside p {
+    width: 430px;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 35px;
+    color: #767779;
+}
+
+.navbar .rightside p a {
+    color: #B49C73;
+}
+
+.navbar .rightside button {
+    width: 191.86px;
+    height: 47.5px;
+    background-color: #B49C73;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/* ////////////////////////////////////main//////////////////////////////////// */
+.main {
+    width: 100%;
+    height: 600px;
+    background-color: #37373F;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .leftside {
+    width: 540px;
+    height: 400px;
+}
+
+.main .leftside h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main .leftside h1 span {
+    font-weight: bold;
+    font-size: 50px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}
+
+.main .leftside p {
+    width: 444px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #b2b2b8;
+    line-height: 25px;
+    padding-left: 50px;
+}
+
+.main .leftside button {
+    width: 142px;
+    height: 48.5px;
+    background-color: #B49C73;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.main .rightside {
+    width: 540px;
+    height: 400px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+.main .rightside ul li {
+    width: 470px;
+    height: 70.38px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.main .rightside ul li .fa-solid {
+    width: 70px;
+    height: 70px;
+    background-color: #ffffff33;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.main .rightside ul li p {
+    width: 470px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #b2b2b8;
+    line-height: 25px;
+    padding-left: 90px;
+    margin-top: -70px;
+}
+
+.main .rightside ul li p span {
+    color: #B49C73;
+}
+
+/* ////////////////////////////////////main//////////////////////////////////// */
+.main1 {
+    width: 100%;
+    height: 600px;
+    background-color: #37373F;
+    display: flex;
+    justify-content: center;
+}
+
+.main1 .leftside {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.main1 .leftside h1 {
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main1 .leftside h1 span {
+    font-weight: bold;
+    font-size: 50px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.main1 .rightside {
+    width: 750px;
+    height: 500px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main1 .rightside .box1 {
+    width: 285px;
+    height: 224px;
+    margin-left: 50px;
+}
+
+.main1 .rightside .box1 h1 {
+    font-size: 80px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.main1 .rightside .box1 h1 span {
+    font-weight: bold;
+    font-size: 80px;
+    color: #B49C73;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+.main1 .rightside .box1 p span {
+    color: white;
+    font-weight: bold;
+}
+
+.main1 .rightside .box1 p {
+    width: 230px;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #b2b2b8;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .main {
+        width: 100%;
+        height: 600px;
+        background-color: #37373F;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+    .navbar .container-fluid {
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+
+    .navbar-nav a {
+        font-weight: bold;
+        color: black;
+    }
+
+    .navbar .rightside {
+        width: 370px;
+        height: 144px;
+        position: absolute;
+        top: 31%;
+        right: 20%;
+    }
+
+    .navbar .rightside p {
+        width: 500px;
+        padding-left: 0;
+        color: black;
+    }
+
+    .navbar .rightside p a {
+        color: black;
+    }
+
+    .navbar .rightside button {
+        margin-left: 0px;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main {
+        width: 100%;
+        height: 600px;
+        background-color: #37373F;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -140px;
+    }
+
+    .main .leftside {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main .leftside h1 {
+        font-size: 45px;
+    }
+
+    .main .leftside h1 span {
+        font-size: 45px;
+    }
+
+    .main .leftside p {
+        width: 400px;
+        padding-left: 30px;
+    }
+
+    .main .leftside button {
+        margin-left: 30px;
+    }
+
+    .main .rightside {
+        width: 540px;
+        height: 400px;
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+
+    .main .rightside ul li {
+        width: 470px;
+        height: 70.38px;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .main .rightside ul li .fa-solid {
+        width: 70px;
+        height: 70px;
+        background-color: #ffffff33;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .main .rightside ul li p {
+        width: 470px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+        padding-left: 90px;
+        margin-top: -70px;
+    }
+
+    .main .rightside ul li p span {
+        color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 600px;
+        background-color: #37373F;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main1 .leftside {
+        width: 400px;
+        height: 400px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 50px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 50px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 700px;
+        height: 500px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 235px;
+        height: 224px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 230px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 980px) {
+    .navbar .container-fluid {
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+
+    .navbar-nav a {
+        font-weight: bold;
+        color: black;
+    }
+
+    .navbar .rightside {
+        width: 370px;
+        height: 144px;
+        position: absolute;
+        top: 31%;
+        right: 20%;
+    }
+
+    .navbar .rightside p {
+        width: 500px;
+        padding-left: 0;
+        color: black;
+    }
+
+    .navbar .rightside p a {
+        color: black;
+    }
+
+    .navbar .rightside button {
+        margin-left: 0px;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main {
+        width: 100%;
+        height: 900px;
+        background-color: #37373F;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -145px;
+    }
+
+    .main .leftside {
+        width: 350px;
+        height: 400px;
+        margin-left: 25%;
+        align-items: center;
+    }
+
+    .main .leftside h1 {
+        width: 500px;
+        font-size: 50px;
+        padding-top: 50px;
+    }
+
+    .main .leftside h1 span {
+        font-size: 50px;
+    }
+
+    .main .leftside p {
+        width: 500px;
+        margin-left: -30px;
+    }
+
+    .main .leftside button {
+        margin-left: 30px;
+    }
+
+    .main .rightside {
+        width: 350px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 21%;
+    }
+
+    .main .rightside ul li {
+        width: 320px;
+        height: 70.38px;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .main .rightside ul li .fa-solid {
+        width: 70px;
+        height: 70px;
+        background-color: #ffffff33;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .main .rightside ul li p {
+        width: 470px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+        padding-left: 90px;
+        margin-top: -70px;
+    }
+
+    .main .rightside ul li p span {
+        color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 700px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 570px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-left: 12%;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 750px;
+        height: 500px;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 285px;
+        height: 224px;
+        margin-left: 50px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 230px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .navbar .container-fluid {
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+
+    .navbar-nav a {
+        font-weight: bold;
+        color: black;
+    }
+
+    .navbar .rightside {
+        width: 400px;
+        height: 144px;
+        position: relative;
+        top: -10%;
+        left: 5%;
+    }
+
+    .navbar .rightside p {
+        width: 500px;
+        padding-left: 0;
+        color: white;
+    }
+
+    .navbar .rightside p a {
+        color: white;
+    }
+
+    .navbar .rightside button {
+        margin-left: 0px;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main {
+        width: 100%;
+        height: 900px;
+        background-color: #37373F;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -145px;
+    }
+
+    .main .leftside {
+        width: 350px;
+        height: 400px;
+        margin-left: 10%;
+    }
+
+    .main .leftside h1 {
+        width: 400px;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .main .leftside h1 span {
+        font-size: 40px;
+    }
+
+    .main .leftside p {
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .main .leftside button {
+        margin-left: 30px;
+    }
+
+    .main .rightside {
+        width: 350px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+
+    .main .rightside ul li {
+        width: 320px;
+        height: 70.38px;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .main .rightside ul li .fa-solid {
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff33;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .main .rightside ul li p {
+        width: 400px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+        padding-left: 80px;
+        margin-top: -70px;
+    }
+
+    .main .rightside ul li p span {
+        color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 490px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-left: 13%;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-left: 13%;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 430px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 600px) {
+    .navbar .container-fluid {
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+
+    .navbar-nav a {
+        font-weight: bold;
+        color: black;
+    }
+
+    .navbar .rightside {
+        width: 400px;
+        height: 144px;
+        position: relative;
+        top: -10%;
+        left: 5%;
+    }
+
+    .navbar .rightside p {
+        width: 300px;
+        padding-left: 0;
+        color: black;
+    }
+
+    .navbar .rightside p a {
+        color: black;
+    }
+
+    .navbar .rightside button {
+        margin-left: 0px;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main {
+        width: 100%;
+        height: 900px;
+        background-color: #37373F;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -145px;
+    }
+
+    .main .leftside {
+        width: 350px;
+        height: 400px;
+    }
+
+    .main .leftside h1 {
+        width: 400px;
+        font-size: 40px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .main .leftside h1 span {
+        font-size: 40px;
+    }
+
+    .main .leftside p {
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .main .leftside button {
+        margin-left: 30px;
+    }
+
+    .main .rightside {
+        width: 350px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .main .rightside ul li {
+        width: 320px;
+        height: 70.38px;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .main .rightside ul li .fa-solid {
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff33;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .main .rightside ul li p {
+        width: 400px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+        padding-left: 80px;
+        margin-top: -70px;
+    }
+
+    .main .rightside ul li p span {
+        color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 390px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 430px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 430px) {
+    .navbar .container-fluid {
+        width: 90%;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        text-align: right;
+    }
+
+    .navbar-nav a {
+        font-weight: bold;
+        color: black;
+    }
+
+    .navbar .rightside {
+        width: 300px;
+        height: 144px;
+        position: relative;
+        top: -20%;
+        left: 5%;
+    }
+
+    .navbar .rightside p {
+        width: 300px;
+        padding-left: 0;
+        color: black;
+    }
+
+    .navbar .rightside p a {
+        color: black;
+    }
+
+    .navbar .rightside button {
+        margin-left: 0px;
+    }
+
+    /* ////////////////////////////////////main//////////////////////////////////// */
+    .main {
+        width: 100%;
+        height: 900px;
+        background-color: #37373F;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: -145px;
+    }
+
+    .main .leftside {
+        width: 350px;
+        height: 400px;
+    }
+
+    .main .leftside h1 {
+        font-size: 30px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .main .leftside h1 span {
+        font-size: 30px;
+    }
+
+    .main .leftside p {
+        width: 350px;
+        padding-left: 30px;
+    }
+
+    .main .leftside button {
+        margin-left: 30px;
+    }
+
+    .main .rightside {
+        width: 350px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .main .rightside ul li {
+        width: 320px;
+        height: 70.38px;
+        list-style-type: none;
+        margin-top: 40px;
+    }
+
+    .main .rightside ul li .fa-solid {
+        width: 50px;
+        height: 50px;
+        background-color: #ffffff33;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .main .rightside ul li p {
+        width: 300px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+        padding-left: 80px;
+        margin-top: -70px;
+    }
+
+    .main .rightside ul li p span {
+        color: #B49C73;
+    }
+
+    /* ////////////////////////////////////main1//////////////////////////////////// */
+    .main1 {
+        width: 100%;
+        height: 1000px;
+        background-color: #37373F;
+        display: block;
+    }
+
+    .main1 .leftside {
+        width: 390px;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .leftside h1 {
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .leftside h1 span {
+        font-weight: bold;
+        font-size: 30px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: bold;
+    }
+
+    .main1 .rightside {
+        width: 390px;
+        height: 500px;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main1 .rightside .box1 {
+        width: 390px;
+        height: 224px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .main1 .rightside .box1 h1 {
+        font-size: 80px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: white;
+    }
+
+    .main1 .rightside .box1 h1 span {
+        font-weight: bold;
+        font-size: 80px;
+        color: #B49C73;
+        font-family: "Rubik", sans-serif;
+        font-weight: 300;
+    }
+
+    .main1 .rightside .box1 p span {
+        color: white;
+        font-weight: bold;
+    }
+
+    .main1 .rightside .box1 p {
+        width: 350px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 500;
+        color: #b2b2b8;
+        line-height: 25px;
+    }
+}
